@@ -1,0 +1,19 @@
+@charset "windows-874";
+/* CSS Document */
+
+#navbar{
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	font-size: 16px;
+	font-family: verdana;
+	text-transform: uppercase;
+	background-color: #CCFFFF;
+}
+#navbar a{
+	text-decoration: none;
+	color: blue;
+}
+#navbar a:hover{
+	color: yellow;
+}

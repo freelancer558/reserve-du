@@ -1,0 +1,40 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+ 
+ 
+body
+{
+	line-height: 1.6em;
+}
+#box-table-a
+{	font-size: 16px;
+
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#box-table-a th
+{
+	font-size: 16px;
+	font-weight: normal;
+	padding: 8px;
+	border-top: 2px solid #ff9900;
+	border-bottom: 2px solid #d5d5d5;
+
+	color: #039;
+}
+#box-table-a td
+{
+	padding: 8px;
+	color: #black;
+	border-top: 1px solid transparent;
+   border-right: 1px solid transparent;
+   border-left: 1px solid transparent;
+   	border-bottom: 2px solid #d5d5d5;
+}
+#box-table-a tr:hover td
+{
+	border-bottom: 2px solid #d5d5d5;
+	color: #339;
+}

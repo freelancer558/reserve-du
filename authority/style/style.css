@@ -1,0 +1,66 @@
+table{
+	padding: 5px;
+	font-family: tahoma;
+	font-size: 13px;
+	color: #0033CC;
+	margin:auto;
+}
+
+img{border:0;}
+input{border: 1px lightblue solid;}  /*  input text stlyle*/
+
+menu.on{alpha(opacity=50); -moz-opacity: 0.5;}
+menu.off{alpha(opacity=50); -moz-opacity: 0.5;}
+
+#container {
+	width: 800px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-style: solid;
+	border-color: #000033;
+	background-color: #FFFFFF;
+}
+#header_left {
+	float: left;
+	background-image: url(images/header_left.gif);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 45px;
+}
+#header_right {
+	background-image: url(images/header_right.gif);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 6px;
+	float: right;
+}
+body {
+	padding-top: 30px;
+	background-color: #FFFFFF;
+}
+
+#footer {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align: right;
+	border-width: 1px;
+	border-top-style: solid;
+	padding: 5px;
+	padding-right: 10px;
+}
+#header_main {
+	float: left;
+	padding: 5px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-top: 5px;
+}
+#header {
+	background-image: url(images/header_bg.gif);
+	height: 42px;
+}
